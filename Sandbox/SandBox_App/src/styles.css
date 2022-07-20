@@ -9,6 +9,12 @@ img.animated-gif{
   height: auto;
 }
 
+.answer-class{
+  font-size: 200px;
+  display: flex;
+  justify-content: center;
+}
+
 .parentDiv {  
   display: flex; 
   justify-content: center; 
@@ -17,6 +23,10 @@ img.animated-gif{
 
 body {
     background-color: #000000;
+}
+
+.answer-color {
+  color:#FF0000
 }
 
 html, body { height: 100%; }
