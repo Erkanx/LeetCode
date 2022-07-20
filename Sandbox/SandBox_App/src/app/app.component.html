@@ -1,6 +1,33 @@
+<div>
+  <body>
+  <marquee 
+      scrollamount="4"
+      scrolldelay="23"
+      truespeed="truespeed"
+      bgcolor="Orange"
+      direction="left"
+      loop="">
+    You can do it! For Pakistan!
+  </marquee>
+  </body>
+</div>
+<br>
 <div class="parentDiv">
   <img class="animated-gif" src="../assets/gif/programming.gif" alt="">
 </div>
+<br>
 <div>
-  <button mat-raised-button color="primary" class="button-size">Test Me!</button>
+  <button (click)="leetCode()" mat-raised-button color="primary" class="button-size" style="display:block; margin: 0 auto;">PILOT!</button>
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div>
+<p class="answer-class" style="color:#FF0000;">{{answers}}</p>
+<!-- <mat-list class="button-size1">
+  <mat-list-item style="color:#FF0000;"> {{answers}} </mat-list-item>
+</mat-list> -->
+</div>
+<!-- <app-leet-code-area></app-leet-code-area> -->

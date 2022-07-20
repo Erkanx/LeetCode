@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'SandBox_App';
+  answers;
+  constructor() {
+
+  }
+
+
+  leetCode() {
+    let a = 1;
+
+    this.answers = a;
+    console.log('test')
+  }
 }

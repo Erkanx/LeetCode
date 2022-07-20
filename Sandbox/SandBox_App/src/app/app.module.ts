@@ -4,16 +4,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MatButtonModule } from '@angular/material/button'
+import { MatButtonModule } from '@angular/material/button';
+import {MatListModule} from '@angular/material/list'; 
+import { LeetCodeAreaComponent } from './leet-code-area/leet-code-area.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LeetCodeAreaComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatButtonModule
+    MatButtonModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
