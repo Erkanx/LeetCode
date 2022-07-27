@@ -14,9 +14,10 @@ export class AppComponent {
 
 
   leetCode() {
-    let a = 1;
-
-    this.answers = a;
-    console.log('test')
+    let s = 'Hello World'
+    for(let i = 0; i < s.length; i++){
+        let store = s[i];
+        console.log(store);
+    }
   }
 }
