@@ -11,8 +11,9 @@
  */
  var deleteNode = function(node) {
     //Starting point
-    let nodeSelected = [4,5,1,9]
+    //let nodeSelected = [4,5,1,9]
 
-    
+    node.val = node.next.val;
+    node.next = node.next.next;
     
 };
